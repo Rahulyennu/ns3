@@ -1,0 +1,7 @@
+$sudo apt-get install qt4-qmake libqt4-dev
+####In netanim3.107 path you will find NetAnim.pro we need to build it to make ./NetAnim executable
+~ netanim3.107$ make clean
+~ netanim3.107$ qmake NetAnim.pro
+~ netanim3.107$ make
+~ netanim3.107$ ./NetAnim
+#### Now you can see animation window file open of .xml 
